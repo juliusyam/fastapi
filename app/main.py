@@ -28,4 +28,6 @@ app.include_router(vote.router)
 
 @app.get("/")
 def dummy():
-    return {"message": "lolz"}
+    return {"message": "Welcome to my first Python API, a SQL based API developed with fastapi, sqlalchemy and "
+                       "alembic. For more of my work please visit https://www.juliusyam.com, or contact me on my "
+                       "LinkedIn at https://www.linkedin.com/in/juliusyam/"}
