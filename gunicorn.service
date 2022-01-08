@@ -3,8 +3,8 @@ Description=Demo fastpai application
 After=network.target
 
 [Service]
-User=user1
-Group=user1
+User=juliusyam
+Group=juliusyam
 WorkingDirectory=/home/juliusyam/app/src/
 Environment="PATH=/home/juliusyam/app/venv/bin"
 EnvironmentFile=/home/juliusyam/.env
